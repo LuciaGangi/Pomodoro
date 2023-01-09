@@ -1,0 +1,81 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(104, 32, 104);
+  }
+  
+  #app {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: solid 10px #095e36;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  #time {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #time #value {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+    background-color: #095e36;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+  }
+  
