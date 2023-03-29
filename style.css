@@ -1,28 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Titillium+Web:wght@200;300;400;600;700&family=Xanh+Mono:ital@1&family=Yellowtail&display=swap');* {
+  font-family: "Titillium Web";
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Dancing Script";
+  font-size: 3rem;
   color: white;
   display: flex;
   justify-content: center;
-  width: 1000px;
+  width: 1100px;
+  margin: 20px;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  font-family: "Titillium Web";
+  color: rgb(22, 19, 19);
   display: flex;
-  justify-content: center;
-  width: 1000px;
+  justify-content:center;
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  border: solid 10px #095e36;
+  border-radius: 30px;
+  padding: 10px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(104, 32, 104);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("pexels-anna-shvets-3987020.jpg");
+    background-size: cover;
+    background-position: center center;
   }
   
   #app {
     background-color: white;
     width: 500px;
-    margin: 0 auto;
+    margin: 50px 50px 50px 300px;
     border: solid 10px #095e36;
     border-radius: 30px;
     padding: 10px;
@@ -78,4 +93,21 @@ body {
     padding: 5px;
     background-color: #ccc;
   }
-  
+  /* Estilos para pantallas grandes */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    width: 1100px;
+  }
+  p {
+    width: 500px;
+    margin: 0 auto;
+  }
+  #app {
+    width: 500px;
+    margin: 50px 50px 50px 300px;
+  }
+}
+
+
+
